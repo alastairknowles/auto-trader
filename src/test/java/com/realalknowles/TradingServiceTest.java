@@ -49,7 +49,8 @@ class TradingServiceTest {
                 Arguments.of(new long[]{1, 2, 1, 2, 2}, 3),
                 Arguments.of(new long[]{1, 4, 2, 3, 5, 1, 1}, 7),
                 Arguments.of(new long[]{1, 4, 2, 3, 5, 1, 2}, 8),
-                Arguments.of(new long[]{5, 4, 2, 3, 5, 1, 2}, 9));
+                Arguments.of(new long[]{5, 4, 2, 3, 5, 1, 2}, 9),
+                Arguments.of(new long[]{4, 2, 2, 4, 4, 2, 2}, 6));
     }
 
 }

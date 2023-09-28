@@ -9,7 +9,7 @@ public class TradingService {
             long price = getPrice(prices, i);
             long nextPrice = getNextPrice(prices, i);
 
-            if (selling && price >= nextPrice) {
+            if (selling && price > nextPrice) {
                 income = income + price;
                 selling = false;
             } else if (!selling && price > 0 && price < nextPrice) {
